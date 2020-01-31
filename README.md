@@ -1,5 +1,5 @@
 ----
-# Welcome to NDX! #
+# Welcome to nDEX Network #
 
 ----
 ## What is NDX? ##
@@ -13,7 +13,7 @@ NDX is a cryptocurrency to make the world a better place.
     - *Ubuntu* - `http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html`
     - *Debian* - `http://www.webupd8.org/2014/03/how-to-install-oracle-java-8-in-debian.html`
     - *FreeBSD* - `pkg install openjdk8`
-
+## Open JDK works FINE!!
 ----
 ## Run it! ##
 
@@ -28,17 +28,17 @@ NDX is a cryptocurrency to make the world a better place.
 ## Compile it! ##
 
   - if necessary with: `./compile.sh`
-  - you need jdk-8 as well
+  - you need jdk-8 as well [Use openjdk (Linux users)]
 
 ----
-## Troubleshooting the NRS (NDX Reference Software) ##
+## Troubleshooting the NDX Server ##
 
-  - How to Stop the NRS Server?
+  - How to Stop the NDX Server?
     - click on NDX Stop icon, or run `./stop.sh`
     - or if started from command line, ctrl+c or close the console window
 
   - UI Errors or Stacktraces?
-    - report on BitBucket
+    - report on Github
 
   - Permissions Denied?
     - no spaces and only latin characters in the path to the NRS installation directory
