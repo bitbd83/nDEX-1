@@ -34,16 +34,13 @@ sudo chmod +x /usr/local/bin/docker-compose
 docker run --name ndex -d -p 80:6868 ndexnetwork/ndex
 [ No deps no fixer!!!]
 ```
-
-## Get it! ##
-
-  
+ 
 ### Open JDK works FINE!!
 ----
 ### Run it! ##
 
   - click on the NDX icon, or start from the command line:
-  - Unix: `./start.sh`
+  - linux: `./start.sh`
   - Window: `run.bat`
 
   - wait for the JavaFX wallet window to open
@@ -80,9 +77,9 @@ docker run --name ndex -d -p 80:6868 ndexnetwork/ndex
 
 ----
 
-```bash
-           Copyright © 2020 nDEX Network Ltd.
-          Copyright © 2016-2018 Jelurida IP B.V.
+```
+                               Copyright © 2020 nDEX Network Ltd.
+                             Copyright © 2016-2018 Jelurida IP B.V.
           
 ```
 
