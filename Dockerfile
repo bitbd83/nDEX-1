@@ -21,7 +21,7 @@ RUN sed 's/main$/main universe/' -i /etc/apt/sources.list
 RUN apt-get update && apt-get install -y software-properties-common python-software-properties
 RUN add-apt-repository ppa:openjdk-r/ppa && \
     apt-get update && \
-    apt-get install -y openjdk-8-jdk && \
+    apt-get install -y openjdk-11-jdk && \
     apt-get install -y ant && \
     apt-get clean;
 # Fix certificate issues
