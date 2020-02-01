@@ -14,8 +14,7 @@ Name of Blockchain: nDEX
 Peer port: 6899
 Testnet peer port: 6898
 API server port: 6868
-Website of the project: [nDEX Network's NDX Page ](https //ndx.ndexnetwork.com)
-Version: v1.11.13
+Website of the project: [nDEX Network's NDX Page](https //ndx.ndexnetwork.com)
 
 ## Get it! ##
 
@@ -66,6 +65,10 @@ Version: v1.11.13
 
 ----
 
-## License
-* This program is distributed under the terms of the Jelurida Public License version 1.1 for the Ardor Public Blockchain 
+```bash
+           Copyright © 2020 nDEX Network Ltd.
+          Copyright © 2016-2018 Jelurida IP B.V.
+          
+```
+
 
