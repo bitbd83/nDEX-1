@@ -4,8 +4,7 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/ndexnetwork/ndex.svg)](https://hub.docker.com/r/ndexnetwork/ndex/)
 ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ndexnetwork/ndex?label=nDEX%20%7C%20docker%20build&style=plastic)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/ndexnetwork/ndex)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ndexnetwork/ndex?style=plastic)
-![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ndexnetwork/ndex?label=nDEX%20%7C%20docker%20build&style=plastic)
+
 ----
 ## What is NDX? ##
 NDX is a cryptocurrency to make the world a better place.
