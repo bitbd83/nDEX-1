@@ -1,5 +1,7 @@
 ----
 # nDEX Network | A Blockchain Business Development Platform #
+[![Docker Stars](https://img.shields.io/docker/stars/ndexnetwork/ndex.svg)](https://hub.docker.com/r/ndexnetwork/ndex/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/ndexnetwork/ndex.svg)](https://hub.docker.com/r/ndexnetwork/ndex/)
 
 ----
 ## What is NDX? ##
