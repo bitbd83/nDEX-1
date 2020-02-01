@@ -4,9 +4,19 @@
 ----
 ## What is NDX? ##
 NDX is a cryptocurrency to make the world a better place.
-See LICENSE[link href="https://raw.githubusercontent.com/ndexnetwork/nDEX/master/.github/LICENSE" color=blue]
+See [LICENSE](https://raw.githubusercontent.com/ndexnetwork/nDEX/master/.github/LICENSE)
 
 ----
+
+### PORTS AND DETAILS
+--------------------
+Name of Blockchain: nDEX
+Peer port: 6899
+Testnet peer port: 6898
+API server port: 6868
+Website of the project: [nDEX Network's NDX Page ](https //ndx.ndexnetwork.com)
+Version: v1.11.13
+
 ## Get it! ##
 
   - *dependencies*:
@@ -14,9 +24,9 @@ See LICENSE[link href="https://raw.githubusercontent.com/ndexnetwork/nDEX/master
     - *Ubuntu* - `http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html`
     - *Debian* - `http://www.webupd8.org/2014/03/how-to-install-oracle-java-8-in-debian.html`
     - *FreeBSD* - `pkg install openjdk8`
-## Open JDK works FINE!!
+### Open JDK works FINE!!
 ----
-## Run it! ##
+### Run it! ##
 
   - click on the NDX icon, or start from the command line:
   - Unix: `./start.sh`
@@ -26,7 +36,7 @@ See LICENSE[link href="https://raw.githubusercontent.com/ndexnetwork/nDEX/master
   - on platforms without JavaFX, open http://localhost:6699/ in a browser
 
 ----
-## Compile it! ##
+### Compile it! ##
 
   - if necessary with: `./compile.sh`
   - you need jdk-8 as well [Use openjdk (Linux users)]
@@ -46,7 +56,7 @@ See LICENSE[link href="https://raw.githubusercontent.com/ndexnetwork/nDEX/master
     - known jetty issue
 
 ----
-## Further Reading ##
+### Further Reading ##
 
   - in this repository:
     - USERS-GUIDE.md
