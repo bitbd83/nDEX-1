@@ -1,9 +1,10 @@
 ----
-# Welcome to nDEX Network #
+# nDEX Network | A Blockchain Business Development Platform #
 
 ----
 ## What is NDX? ##
 NDX is a cryptocurrency to make the world a better place.
+See LICENSE[link href="https://raw.githubusercontent.com/ndexnetwork/nDEX/master/.github/LICENSE" color=blue]
 
 ----
 ## Get it! ##
