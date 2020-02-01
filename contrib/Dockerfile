@@ -26,8 +26,8 @@ RUN echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true 
 RUN apt-get install -y oracle-java8-installer
 
 # run and compile nxt
-RUN mkdir /nxt
-ADD . /nxt
+RUN mkdir /ndex
+ADD . /ndex
 # repo has
 ADD contrib/docker_start.sh /docker_start.sh
 # set nxt to listen on all interfaces
