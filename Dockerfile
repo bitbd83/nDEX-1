@@ -35,7 +35,7 @@ RUN echo 'nxt.allowedBotHosts=*' >> /nxt/conf/nxt.properties
 RUN echo 'nxt.apiServerHost=0.0.0.0' >> /nxt/conf/nxt.properties
 RUN chmod +x /docker_start.sh
 
-RUN cd /nxt; ./compile.sh
+RUN cd /ndex; ./compile.sh
 # both Nxt ports get exposed
-EXPOSE 7874 7876
+EXPOSE 6899 6868
 CMD ["/docker_start.sh"]
