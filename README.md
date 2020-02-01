@@ -14,7 +14,7 @@ Name of Blockchain: nDEX
 Peer port: 6899
 Testnet peer port: 6898
 API server port: 6868
-Website of the project: [nDEX Network's NDX Page](https //ndx.ndexnetwork.com)
+Website of the project: [nDEX Network's NDX Page](https://ndx.ndexnetwork.com)
 
 ## Get it! ##
 
