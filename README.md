@@ -24,6 +24,16 @@ API server port: 6868
 
 Website of the project: [nDEX Network's NDX Page](https://ndx.ndexnetwork.com)
 
+### Run in Docker [Easy like 1,2,3 ]
+```
+1. Install docker : sudo curl -sSL https://get.docker.com/ | sh
+2. Install docker-compose & change its permission:  
+sudo curl -L https://github.com/docker/compose/releases/download/1.24.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose 
+3. Finally run:
+docker run --name ndex -d -p 80:6868 ndexnetwork/ndex
+[ No deps no fixer!!!]
+```
 
 ## Get it! ##
 
