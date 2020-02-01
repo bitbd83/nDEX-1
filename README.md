@@ -1,9 +1,9 @@
 ----
 # nDEX Network | A Blockchain Business Development Platform #
-[![Docker Stars](https://img.shields.io/docker/stars/ndexnetwork/ndex.svg)](https://hub.docker.com/r/ndexnetwork/ndex/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/ndexnetwork/ndex.svg)](https://hub.docker.com/r/ndexnetwork/ndex/)
-![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ndexnetwork/ndex?label=nDEX%20%7C%20docker%20build&style=plastic)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/ndexnetwork/ndex)
+[![Docker Stars](https://img.shields.io/docker/stars/ndexnetwork/ndex.svg)](https://hub.docker.com/r/ndexnetwork/ndex?style=flat)
+[![Docker Pulls](https://img.shields.io/docker/pulls/ndexnetwork/ndex.svg)](https://hub.docker.com/r/ndexnetwork/ndex?style=flat)
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ndexnetwork/ndex?label=nDEX%20%7C%20docker%20build&style=flat)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/ndexnetwork/ndex?style=flat)
 
 ----
 ## What is NDX? ##
