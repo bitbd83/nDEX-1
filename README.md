@@ -33,7 +33,7 @@ Website of the project: [nDEX Network's NDX Page](https://ndx.ndexnetwork.com)
   - Window: `run.bat`
 
   - wait for the JavaFX wallet window to open
-  - on platforms without JavaFX, open http://localhost:6699/ in a browser
+  - on platforms without JavaFX, open http://localhost:6868/ in a browser
 
 ----
 ### Compile it! ##
