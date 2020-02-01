@@ -19,12 +19,18 @@ ENV LC_ALL C.UTF-8
 #java8
 RUN sed 's/main$/main universe/' -i /etc/apt/sources.list
 RUN apt-get update && apt-get install -y software-properties-common python-software-properties
-RUN add-apt-repository ppa:webupd8team/java -y
-RUN apt-get update
-RUN apt-get install -y wget unzip
-RUN echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | /usr/bin/debconf-set-selections
-RUN apt-get install -y oracle-java8-installer
-
+RUN add-apt-repository ppa:openjdk-r/ppa && \
+    apt-get update && \
+    apt-get install -y openjdk-7-jdk && \
+    apt-get install -y ant && \
+    apt-get clean;
+# Fix certificate issues
+RUN apt-get update && \
+    apt-get install ca-certificates-java && \
+    apt-get clean && \
+    update-ca-certificates -f;
+RUN apt-get install gnupg2  -y
+RUN gpg2 --keyserver hkp://pool.sks-keyservers.net --recv-keys 75CEBDE82D6BECC940EC0D22B3E38C4A2BBDBA1E
 # run and compile nxt
 RUN mkdir /ndex
 ADD . /ndex
