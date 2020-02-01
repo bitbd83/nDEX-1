@@ -37,8 +37,8 @@ ADD . /ndex
 # repo has
 ADD contrib/docker_start.sh /docker_start.sh
 # set nxt to listen on all interfaces
-RUN echo 'nxt.allowedBotHosts=*' >> /nxt/conf/nxt.properties
-RUN echo 'nxt.apiServerHost=0.0.0.0' >> /nxt/conf/nxt.properties
+RUN echo 'nxt.allowedBotHosts=*' >> /ndex/conf/nxt.properties
+RUN echo 'nxt.apiServerHost=0.0.0.0' >> /ndex/conf/nxt.properties
 RUN chmod +x /docker_start.sh
 
 RUN cd /ndex; ./compile.sh
