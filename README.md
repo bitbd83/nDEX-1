@@ -23,11 +23,7 @@ Website of the project: [nDEX Network's NDX Page](https://ndx.ndexnetwork.com)
 
 ## Get it! ##
 
-  - *dependencies*:
-    - *general* - Java 8
-    - *Ubuntu* - `http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html`
-    - *Debian* - `http://www.webupd8.org/2014/03/how-to-install-oracle-java-8-in-debian.html`
-    - *FreeBSD* - `pkg install openjdk8`
+  
 ### Open JDK works FINE!!
 ----
 ### Run it! ##
